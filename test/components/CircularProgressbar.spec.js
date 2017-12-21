@@ -1,6 +1,9 @@
 import React from 'react';
 import { assert } from 'chai';
 import { shallow } from 'enzyme';
+import {configure as configureEnzyme} from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+configureEnzyme({ adapter: new Adapter() });
 
 import CircularProgressbar from '../../src';
 
