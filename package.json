@@ -1,6 +1,6 @@
 {
-  "name": "react-circular-progressbar",
-  "version": "0.2.1",
+  "name": "@jcoreio/react-circular-progressbar",
+  "version": "0.2.5",
   "description": "A circular progress indicator component",
   "author": "Kevin Qi <iqnivek@gmail.com>",
   "main": "./build/index.js",
@@ -52,6 +52,6 @@
     "prop-types": "^15.5.10"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0"
+    "react": "^15.0.0 || ^16.0.0"
   }
 }
